@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Waiting Room</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script type="text/javascript" src="script/validateClient.js"> </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+
+
+<div class ="jumbotron">    
+    <h1 class = "header">The Waiting Room </h1>
+    <p class="header">Goal: To tell clients how long the wait time is.  </p>
+    <a  href="admin.html" style ="position: absolute; right: 5px; padding: 10px;">admin</a> 
+</div>
+
+<div class ="container">
+    <div class ="row">
+        <!--
+            Waiting time
+            Purpose: Display the wait time per patient
+         -->
+        <div class = "col-sm-4">
+            <h3> Current Wait time </h3>
+            <p>10 mins per person</p>
+        
+        </div>
+
+        <div class = "col-sm-4">
+            <h3> Current Line up </h3>
+            <p> </p>
+        
+        </div>
+
+        <!--
+            Book an appointment
+            Purpose: Link a page that will redirect to a scheduler or a
+            calender for availability
+         -->
+        <div class = "col-sm-4">
+            <h3> Book an Appointment </h3>
+            <button>See available slots</button>
+        
+        </div>
+
+        <!--
+            Instructions for walk in
+            Purpose: Explains Current protocols
+         -->
+         <div class = "col-sm-4">
+            <h3> Want to Walk-in? </h3>
+            <button> See protocols</button>
+        
+        </div>
+
+
+
+        
+    </div>
+
+</div>
+
+</body>
+
+</html>
